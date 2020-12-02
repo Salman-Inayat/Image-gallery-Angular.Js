@@ -1,0 +1,46 @@
+.add-container{
+  width: 70%;
+  margin-top: 20px;
+}
+  
+  img{
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-left: 220px;
+  }
+
+  .info-block {
+    display: flex;
+  }
+  
+.description{
+  margin: 90px 90px 90px 30px;
+}
+
+  .create-block {
+    padding: 24px;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    border: 1px solid grey;
+    background-color: rgb(230, 224, 224);
+  }
+  
+  .status {
+    padding: 8px;
+    background: #0b990b;
+    color: white;
+    margin-top: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+
+  .photo-card {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: gainsboro;
+    border-radius: 10px;
+  }
