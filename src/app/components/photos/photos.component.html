@@ -41,7 +41,8 @@
 </div>
 
 <div *ngIf="photoData">
-  <button style="margin: 20px" class="btn btn-primary" (click)="showCreateForm()"> Add Photo</button>
+  <button style="margin: 20px" routerLink="/" class="btn btn-outline-primary">Go back</button>
+  <button style="margin: 20px; float:right" class="btn btn-primary" (click)="showCreateForm()"> Add Photo</button>
   <h3 class="text-center">Photos</h3>
   <div class="container" *ngFor="let data of photoData">
     <div class="photo-card" *ngIf="!showEditPhotoForm">
